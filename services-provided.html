@@ -3,12 +3,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="./images/logo.png" />
-
+    
+    <!-- BootStrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/styles.css" />
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -19,6 +17,9 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
+    <!-- Custom -->
+    <link rel="icon" href="./images/logo.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <script src="./scripts/scripts.js"></script>
 
     <title>
@@ -28,14 +29,14 @@
 
 <body>
     <!-- Page Header Section -->
-    <div class="container-fluid">
+    <header class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-6 logo">
                 <img src="./images/logo.png" />
                 <span class="company-name text-wrap align-middle">United Software Solutions</span>
             </div>
         </div>
-    </div>
+    </header>
 
     <!-- Page Navigation Bar Section -->
     <nav class="container-fluid navbar navbar-expand-md navbar-light bg-light">
@@ -76,78 +77,87 @@
     </nav>
 
     <!-- Content Section -->
-    <div class="container">
+    <section class="container">
         <div class="services row row-cols-1 row-cols-sm-2 row-cols-lg-3">
             <div class="col mb-4">
-                <div class="card">
+                <section class="card">
                     <img src="./images/consulting.png" class="card-img-top" alt="consulting">
-                    <div class="card-body">
+                    <summary class="card-body">
                         <h5 class="service-title card-title">Consulting</h5>
-                        <p class="service-description card-text"> As professionals in the software industry, we work
-                            closely with you to analyse your current business
-                            processes and the software supporting them. Together we determine any gaps, ineffeciencies,
-                            and
-                            areas for improvement. We develope a plan for quickest ROI and work with you to Design,
-                            Develop,
-                            Install, Integrate, Test & Deploy the solutions.
+                        <p class="service-description card-text"> We work closely with you to analyse your current
+                            business processes and supporting software.
+                            Together we identify any gaps, ineffeciencies, and areas for improvement.
+                            We create a customized plan for quickest ROI and work with you to Design, Develop, Install,
+                            Integrate, Test & Deploy the solutions.
                         </p>
-                    </div>
-                </div>
+                        <a href="consulting.html" class="btn btn-primary">Learn More</a>
+                    </summary>
+                </section>
             </div>
             <div class="col mb-4">
-                <div class="card">
+                <section class="card">
                     <img src="./images/puzzle-pieces.png" class="card-img-top" alt="integration">
-                    <div class="card-body">
+                    <summary class="card-body">
                         <h5 class="service-title card-title">Integration Development</h5>
-                        <p class="service-description card-text"> We have local professional full-stack developers to
-                            assist in integrating your software solutions to
-                            streamline your business processes. We also have connections to international development
-                            resources
-                            if desired.
+                        <p class="service-description card-text"> Often times we find ourselves using several software
+                            systems for different functions.
+                            This usually results in duplicate data entering, increased risk of errors, and conflicting
+                            data.
+                            Let us help connect the systems and automate your workflow.
                         </p>
-                    </div>
-                </div>
+                        <a href="integration.html" class="btn btn-primary">Learn More</a>
+                    </summary>
+                </section>
             </div>
             <div class="col mb-4">
-                <div class="card">
+                <section class="card">
                     <img src="./images/white-boarding.png" class="card-img-top" alt="development">
-                    <div class="card-body">
+                    <summary class="card-body">
                         <h5 class="service-title card-title">Software Development</h5>
-                        <p class="service-description card-text">Our local full-stack developers can build your small or
-                            large software solutions, calling on
-                            international re-inforcements as you desire.</p>
-                    </div>
-                </div>
+                        <p class="service-description card-text">Sometimes we just need a custom build solution.
+                            Our local and international full-stack developers can build you a solution to fit your
+                            needs.
+                            We utlize the Agile Development methodology and work closely with you to provide you with
+                            routine and regular feedback and progress updates.
+                        </p>
+                        <a href="development.html" class="btn btn-primary">Learn More</a>
+                    </summary>
+                </section>
             </div>
             <div class="col mb-4">
-                <div class="card">
+                <section class="card">
                     <img src="./images/guided-puzzle.png" class="card-img-top" alt="turnkey-solutions">
-                    <div class="card-body">
+                    <summary class="card-body">
                         <h5 class="service-title card-title">"Turnkey" Software Solutions</h5>
-                        <p class="service-description card-text">We are your "general contractor" of the software
-                            industry. Uniting professionals in each area to
-                            provide you the best solutions.</p>
-                    </div>
-                </div>
+                        <p class="service-description card-text">For even larger projects we can play the role of a
+                            software "general contractor".
+                            We'll work to not only develop but unite professionals in each area and bridge the gap to
+                            provide you the best solutions.
+                        </p>
+                        <a href="turnkey.html" class="btn btn-primary">Learn More</a>
+                    </summary>
+                </section>
             </div>
             <div class="col mb-4">
-                <div class="card">
+                <section class="card">
                     <img src="./images/training.png" class="card-img-top" alt="training">
-                    <div class="card-body">
+                    <summary class="card-body">
                         <h5 class="service-title card-title">Software Development Training</h5>
-                        <p class="service-description card-text">We work to share our expertise with you through
-                            professional quality software training programs;
-                            giving you the skills to develop your own full-stack solutions. Take a look at our <a
-                                href="">courses</a> for more detail.</p>
-                    </div>
-                </div>
+                        <p class="service-description card-text">We empower you to be the creators of your own design.
+                            Let us share our expertise with you through professional quality software training programs;
+                            giving you the skills you need to develop your own solutions. Take a look at our <a
+                                href="">courses</a> for more detail.
+                        </p>
+                        <a href="courses.html" class="btn btn-primary">Learn More</a>
+                    </summary>
+                </section>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Page Footer Section -->
-    <footer-banner>
-    </footer-banner>
+    <footer>
+    </footer>
 </body>
 
 </html>

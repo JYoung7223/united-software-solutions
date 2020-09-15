@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+
+    <!-- BootStrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom -->
+    <link rel="icon" href="./images/logo.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./scripts/scripts.js"></script>
+
+    <title>
+        Services Provided
+    </title>
+</head>
+
+<body>
+    <!-- Page Header Section -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 logo">
+                <img src="./images/logo.png" />
+                <span class="company-name text-wrap align-middle">United Software Solutions</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Navigation Bar Section -->
+    <nav class="container-fluid navbar navbar-expand-md navbar-light bg-light">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseableContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapseableContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services-provided.html">Services </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="training.html" id="navbarTrainingDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarTrainingDropdown">
+                        <a class="dropdown-item" href="#">Personal Coaching</a>
+                        <a class="dropdown-item" href="#">Group Training</a>
+                        <a class="dropdown-item" href="#">Certifications</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <section class="container">
+        <form>
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-2 text-right">Name</label>
+                <input type="name" class="form-control col-sm-10" id="inputName" placeholder="Your Name">
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail" class="col-sm-2 text-right">Email address</label>
+                <input type="email" class="form-control col-sm-10" id="inputEmail" aria-describedby="emailHelp" placeholder="Your Email">
+                <small id="emailHelp" class="form-text text-muted col-sm-12 text-center">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group row">
+                <label for="company" class="col-sm-2 text-right">Company</label>
+                <input type="text" class="form-control col-sm-10" id="inputCompany" placeholder="Your Company">
+            </div>
+            <div class="form-group row">
+                <label for="message" class="col-sm-2 text-right">Message</label>
+                <input type="textbox" class="form-control col-sm-10" id="inputMessage" placeholder="Your Questions">
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <button type="submit" class="btn btn-primary col-sm-2">Submit</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
