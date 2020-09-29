@@ -1,3 +1,8 @@
+:root{
+    --primary-interact-color:#6a459b;
+    --primary-focus-color:#d2c3e0;
+}
+
 .hidden{
     display:none;
 }
@@ -13,4 +18,18 @@
 .navbar img{
     width:1rem;
     height:1rem;
+}
+a{
+    color: var(--primary-interact-color);
+}
+
+/* BootStrap Overrides */
+/* Buttons */
+.btn-primary{
+    background-color:var(--primary-interact-color);
+    border-color:var(--primary-interact-color);
+}
+.btn-primary:hover, .btn-primary:focus{
+    background-color:var(--primary-focus-color);
+    border-color:var(--primary-focus-color);
 }
