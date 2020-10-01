@@ -18,13 +18,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
 
     <!-- Custom -->
     <link rel="icon" href="./images/logo.png" />
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="./scripts/scripts.js"></script>
 
-    <title>Contact</title>
+    <title>Integration Solutions</title>
 </head>
 
 <body>
@@ -32,8 +35,10 @@
     <header class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-6 logo">
-                <img src="./images/logo.png" />
-                <span class="company-name text-wrap align-middle">United Software Solutions</span>
+                <a href="./index.html">
+                    <img src="./images/logo.png" />
+                    <span class="company-name text-wrap align-middle">United Software Solutions</span>
+                </a>
             </div>
         </div>
     </header>
@@ -54,14 +59,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="services-provided.html">Services </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="training.html" id="navbarTrainingDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarTrainingDropdown">
-                        <a class="dropdown-item" href="#">Personal Coaching</a>
-                        <a class="dropdown-item" href="#">Group Training</a>
-                        <a class="dropdown-item" href="#">Certifications</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="training.html">Training</a>                    
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="shop.html">Shop</a>
@@ -79,30 +78,29 @@
     <!-- Content Section -->
     <section class="container mt-3">
         <div class="row mb-3">
-            <h3 class="text-company-primary mx-auto">Integration Solutions</h3>
+            <h3 class="text-company-primary mx-auto">Consulting & Integration Solutions</h3>
         </div>
 
         <!-- First Promo -->
-        <div class="row my-auto hidden">
-            <div class="col-md-6 px-auto">
-                <h3 class="text-company-secondary px-auto">Bridging The Gap</h3>
-                <p> Is your workforce stuck .</p>
-                <p> Often times these pieces are independent of eachother, which causes:</p>
-                
-                <p class="text-company-primary"> Let us help connect those pieces through an automated process. If we
-                    can't find an already built solutions, we will work with you to build one.</p>
+        <article class="row mx-auto py-4 border-bottom my-3">
+            <div class="col-md-6 my-auto text-center">
+                <h3 class="text-company-secondary border-bottom">Identify The Gap</h3>
+                <p> It can be difficult to see and bridge gaps, when we are focused on the day-to-day.  We will work with you to analyse your current business processes and software.  Together we identify any gaps, ineffeciencies or areas for improvement and create a plan to move to the desired solution.</p>
+                <p class="font-weight-bold"> Reach out to us today and see what we can do for you.</p>
+                <a href="contact.html" class="btn btn-primary">Let Us Help</a>
             </div>
-            <img class="col-md-6" src="./images/puzzle-pieces.png" alt="Integration Solutions" />
-        </div>
+            <img class="col-md-6" src="./images/bridge-the-gap.png" alt="Identify Gaps" />
+        </article>        
+
         <!-- Second Promo -->
-        <div class="row my-auto">
+        <article class="row mx-auto py-4 border-bottom my-3">
             <img class="col-md-6" src="./images/puzzle-pieces.png" alt="Integration Solutions" />
-            <div class="col-md-6 px-auto">
-                <h3 class="text-company-secondary px-auto">Connecting Systems Automatically</h3>
-                <p> Many times as businesses grow, requirements evolve. This causes businesses to end up with a several
+            <div class="col-md-6 my-auto text-center">
+                <h3 class="text-company-secondary border-bottom">Connecting Systems Automatically</h3>
+                <p> As businesses grow, requirements evolve. This may cause businesses to end up with a several
                     puzzle pieces to solve specific items.</p>
-                <p> Often times these pieces are independent of eachother, which causes:</p>
-                <ul>
+                <p class="text-left"> When these pieces are independent of eachother, it can cause:</p>
+                <ul class="text-left">
                     <li>Duplicate Entry</li>
                     <li>Wasted Time</li>
                     <li>Inconsistent Data</li>
@@ -112,11 +110,18 @@
                 <p class="font-weight-bold"> Let us help connect those pieces through an automated process.
                     If we can't find an already built solutions, we will work with you to build one.
                 </p>
+                <a href="contact.html" class="btn btn-primary">Get Connected</a>
             </div>
-        </div>
+        </article>
+        
     </section>
 
     <!-- Footer Section -->
+    <footer class="container-fluid fixed-bottom mb-0 bg-light">
+        <section class="row">
+            <div class="col text-center"><i class="fa fa-copyright" aria-hidden="true"> Copyright</i></div>
+        </section>
+    </footer>
 </body>
 
 </html>

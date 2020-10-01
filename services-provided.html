@@ -18,6 +18,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <!-- Custom -->
     <link rel="icon" href="./images/logo.png" />
@@ -32,8 +34,10 @@
     <header class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-6 logo">
-                <img src="./images/logo.png" alt="Logo" />
-                <span class="company-name text-wrap align-middle">United Software Solutions</span>
+                <a href="./index.html">
+                    <img src="./images/logo.png" />
+                    <span class="company-name text-wrap align-middle">United Software Solutions</span>
+                </a>
             </div>
         </div>
     </header>
@@ -54,14 +58,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="services-provided.html">Services </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="training.html" id="navbarTrainingDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarTrainingDropdown">
-                        <a class="dropdown-item" href="#">Personal Coaching</a>
-                        <a class="dropdown-item" href="#">Group Training</a>
-                        <a class="dropdown-item" href="#">Certifications</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="training.html">Training</a>                    
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="shop.html">Shop</a>
@@ -88,9 +86,9 @@
                             business processes and supporting software.
                             Together we identify any gaps, ineffeciencies, and areas for improvement.
                             We create a customized plan for quickest ROI and work with you to Design, Develop, Install,
-                            Integrate, Test & Deploy the solutions.
+                            Integrate, Configure, Test & Deploy the solutions.
                         </p>
-                        <a href="consulting.html" class="btn btn-primary">Learn More</a>
+                        <a href="consult-integrate.html" class="btn btn-primary">Learn More</a>
                     </summary>
                 </section>
             </div>
@@ -105,7 +103,7 @@
                             data.
                             Let us help connect the systems and automate your workflow.
                         </p>
-                        <a href="integration.html" class="btn btn-primary">Learn More</a>
+                        <a href="consult-integrate.html" class="btn btn-primary">Learn More</a>
                     </summary>
                 </section>
             </div>
@@ -148,15 +146,18 @@
                             giving you the skills you need to develop your own solutions. Take a look at our <a
                                 href="">courses</a> for more detail.
                         </p>
-                        <a href="courses.html" class="btn btn-primary">Learn More</a>
+                        <a href="training.html" class="btn btn-primary">Learn More</a>
                     </summary>
                 </section>
             </div>
         </div>
     </section>
 
-    <!-- Page Footer Section -->
-    <footer>
+    <!-- Footer Section -->
+    <footer class="container-fluid fixed-bottom mb-0 bg-light">
+        <section class="row">
+            <div class="col text-center"><i class="fa fa-copyright" aria-hidden="true"> Copyright</i></div>
+        </section>
     </footer>
 </body>
 

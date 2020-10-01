@@ -18,6 +18,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <!-- Custom -->
     <link rel="icon" href="./images/logo.png" />
@@ -32,8 +34,10 @@
     <header class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-6 logo">
-                <img src="./images/logo.png" />
-                <span class="company-name text-wrap align-middle">United Software Solutions</span>
+                <a href="./index.html">
+                    <img src="./images/logo.png"/>
+                    <span class="company-name text-wrap align-middle">United Software Solutions</span>
+                </a>
             </div>
         </div>
     </header>
@@ -54,14 +58,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="services-provided.html">Services </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="training.html" id="navbarTrainingDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Training</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarTrainingDropdown">
-                        <a class="dropdown-item" href="#">Personal Coaching</a>
-                        <a class="dropdown-item" href="#">Group Training</a>
-                        <a class="dropdown-item" href="#">Certifications</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="training.html">Training</a>                    
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="shop.html">Shop</a>
@@ -76,52 +74,92 @@
         </div>
     </nav>
 
-    <!-- Main Content Section -->
     <!-- Carousel Banner -->
-    <div class="container-fluid bg-light">
-        <div id="carouselId" class="carousel slide" data-ride="carousel">
+    <section class="container-fluid bg-light">
+        <div id="carouselPromo" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselId" data-slide-to="1"></li>
-                <li data-target="#carouselId" data-slide-to="2"></li>
+                <li data-target="#carouselPromo0" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselPromo1" data-slide-to="1"></li>
+                <li data-target="#carouselPromo2" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item row active">
+            <section class="carousel-inner">
+                <article id="carouselPromo0" class="carousel-item row active">
                     <img src="./images/guided-puzzle.png" class="col-12 col-md-6 m-0" alt="Turn-key Provider">
                     <div class="carousel-caption col-10 offset-md-4 col-md-6">
-                        <h3 class="text-company-primary">Your Turn-key Software Solution</h3>
+                        <h3 class="text-company-primary">Your Software "General Contractor"</h3>
                         <p class="text-company-secondary">Your connection to the software world.</p>
-                        <a href="turnkey.html" class="btn btn-primary">Learn More</a>
+                        <a href="contact.html" class="btn btn-primary">Learn More</a>
                     </div>
-                </div>
-                <div class="carousel-item row">
+                </article>
+                <article id="carouselPromo1" class="carousel-item row">
                     <div class="carousel-caption col-10 col-md-4">
                         <h3 class="text-company-primary">Your Software Personal Trainer</h3>
                         <p class="text-company-secondary">Empowering you to build.</p>
-                        <a href="training.html" class="btn btn-primary">View Options</a>
+                        <a href="training.html" class="btn btn-primary">Learn More</a>
                     </div>
-                    <img src="./images/training.png" class="col-12 col-md-6 offset-md-6" alt="Training">
-                </div>
-                <div class="carousel-item row">
+                    <img src="./images/empowered.png" class="col-12 col-md-6 offset-md-6" alt="Empowered">
+                </article>
+                <article id="carouselPromo2" class="carousel-item row">
                     <div class="carousel-caption col-10 col-md-4">
-                        <h3 class="text-company-primary">View Our Provided Services</h3>
+                        <h3 class="text-company-primary">Your Software Professional</h3>
                         <p class="text-company-secondary">See how we can help.</p>
                         <a href="services-provided.html" class="btn btn-primary">View Services</a>
                     </div>
                     <img src="./images/consulting.png" class="col-12 col-md-6 offset-md-6" alt="Services">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                </article>
+            </section>
+            <a class="carousel-control-prev" href="#carouselPromo" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselPromo" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
+    </section>
 
+    <!-- Main Content Section -->
+    <section class="container mx-auto my-3">
+
+        <!-- First Promo -->
+        <article class="row mx-auto py-4 border-bottom my-3">
+            <div class="col-md-6 offset-md-2 my-auto text-center">
+                <h3 class="text-company-secondary border-bottom">Identify The Gap</h3>
+                <p> It can be difficult to see and bridge gaps, when we are focused on the day-to-day.  We will work with you to identify gaps and create a plan to bridge the gaps.</p>                
+                <a href="consult-integrate.html" class="btn btn-primary">Bridge The Gap</a>
+            </div>
+            <img class="col-md-4" src="./images/bridge-the-gap.png" alt="Identify Gaps" />
+        </article>
+
+        <!-- Second Promo -->
+        <article class="row mx-auto py-4 border-bottom my-3">
+            <img class="col-md-4 offset-md-2" src="./images/guided-puzzle.png" alt="Software Contractor" />
+            <div class="col-md-6 my-auto text-center">
+                <h3 class="text-company-secondary border-bottom">"Turn-key" Software Solutions</h3>
+                <p> Let us be your software "general contractor".  We'll work to unite professionals in the software industry to provide you the best solution.</p>
+                <a href="contact.html" class="btn btn-primary">Let's Build</a>
+            </div>
+        </article>
+
+        <!-- Third Promo -->
+        <article class="row mx-auto py-4 border-bottom my-3">
+            <div class="col-md-6 offset-md-2 my-auto text-center">
+                <h3 class="text-company-secondary border-bottom">Empower Your Team</h3>
+                <p> Be the creator of your own destiny, by letting us provide your team with Software Development training</p>
+                <a href="training.html" class="btn btn-primary">Get Empowered</a>
+            </div>
+            <img class="col-md-4" src="./images/training.png" alt="Training" />
+        </article>
+
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="container-fluid fixed-bottom mb-0 bg-light">
+        <section class="row">
+            <div class="col text-center"><i class="fa fa-copyright" aria-hidden="true"> Copyright</i></div>
+        </section>
+    </footer>
 </body>
 
 </html>

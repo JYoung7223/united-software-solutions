@@ -24,13 +24,16 @@
     color:var(--secondary-company-color);
     text-shadow: 1px 1px #FFFFFF;
 }
-
 .navbar img{
     width:1rem;
     height:1rem;
 }
 a{
     color: var(--primary-company-color);
+}
+header a:hover{
+    text-decoration: none;
+    color:var(--primary-company-color);
 }
 
 /* BootStrap Overrides */
