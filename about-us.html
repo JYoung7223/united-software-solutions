@@ -6,25 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- BootStrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <!-- JQuery, PopperJS, BootstrapJS Scrips-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <!-- Custom -->
-    <link rel="icon" href="./images/logo.png" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./scripts/scripts.js"></script>
+    <link rel="icon" href="./assets/images/logo.png" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/scripts/scripts.js"></script>
 
     <title>About Us</title>
 </head>
@@ -35,7 +28,7 @@
         <div class="row">
             <div class="col-12 col-lg-6 logo">
                 <a href="./index.html">
-                    <img src="./images/logo.png" />
+                    <img src="./assets/images/logo.png" alt="USS Logo">
                     <span class="company-name text-wrap align-middle">United Software Solutions</span>
                 </a>
             </div>
@@ -45,8 +38,7 @@
     <!-- Page Navigation Bar Section -->
     <nav class="container-fluid navbar navbar-expand-md navbar-light bg-light">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseableContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseableContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -59,7 +51,7 @@
                     <a class="nav-link" href="services-provided.html">Services </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="training.html">Training</a>                    
+                    <a class="nav-link" href="training.html">Training</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="shop.html">Shop</a>
@@ -75,12 +67,162 @@
     </nav>
 
     <!-- Main Content Section -->
-    Under Construction
+    <div class="container">
+
+        <!-- Founder Section -->
+        <div class="card mb-3">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="./assets/images/about-us/justin-young/profile-pic.png" class="card-img" alt="Founder">
+                </div>
+
+                <!-- Card Body Section -->
+                <div class="pl-2 col-md-8">
+                    <div class="card-body" id="justin-card-body">
+                        <h5 class="card-title text-company-primary">Founder - Justin Young</h5>
+                        <p class="mb-1 card-text">
+                            Justin has worked in the technology sector with local small businesses and large
+                            international coorporations for 15+ yrs.
+                        </p>
+                        <p class="mb-1 card-text">
+                            He holds degrees in Computer Science, Computer Engineering, and a Masters in Business
+                            Administration.
+                        </p>
+                        <p class="mb-1 card-text">
+                            When not programming or working, Justin enjoys spending time with his family, learning
+                            music, running, exercising, biking, playing softball and being active.
+                        </p>
+
+                        <!-- Recent Hobby Projects -->
+                        <button class="col-12 btn btn-link text-company-primary" data-toggle="collapse" data-target="#hobbyProjects" aria-expanded="true" aria-controls="hobbyProjects"><i class="fa fa-expand" aria-hidden="true"> View Recent Hobby Projects </i></button>
+                        <div id="hobbyProjects" class="collapse" aria-labelledby="hobbyProject" data-parent="#justin-card-body">
+                            <div class="row border-top">
+                                <p class="col-3 card-text">
+                                    <a href="https://jyoung7223.github.io/bcs_hw6_justin_young/"><i class="fa fa-window-maximize" aria-hidden="true"> Weather Dashboard </i></a>
+                                </p>
+                                <p class="col-3 card-text">
+                                    <a href="https://github.com/jyoung7223/bcs_hw6_justin_young/"><i class="fa fa-github" aria-hidden="true"> GitHub Repo </i></a>
+                                </p>
+                                <p class="col-3 card-text">
+                                    <img class="project-img" src="./assets/images/about-us/justin-young/my-weather.png" alt="Weather Dashboard">
+                                </p>
+                            </div>
+                            <div class="row border-top">
+                                <p class="col-3 card-text">
+                                    <a href="https://jyoung7223.github.io/bcs_hw4_justin_young/"><i class="fa fa-window-maximize" aria-hidden="true"> Simple JS Quiz </i></a>
+                                </p>
+                                <p class="col-3 card-text">
+                                    <a href="https://github.com/jyoung7223/bcs_hw4_justin_young/"><i class="fa fa-github" aria-hidden="true"> GitHub Repo </i></a>
+                                </p>
+                                <p class="col-3 card-text">
+                                    <img class="project-img" src="./assets/images/about-us/justin-young/my-quiz.png" alt="JS Quiz">
+                                </p>
+                            </div>
+                            <div class="row border-top">
+                                <p class="col-3 card-text">
+                                    <a href="https://terrybrownpdx.github.io/tdb-project-1/"><i class="fa fa-window-maximize" aria-hidden="true"> Event & Hotel Planner (Team
+                                            Effort)</i> </a>
+                                </p>
+                                <p class="col-3 card-text">
+                                    <a href="https://github.com/terrybrownpdx/tdb-project-1/"><i class="fa fa-github" aria-hidden="true"> GitHub Repo </i></a>
+                                </p>
+                                <p class="col-3 card-text">
+                                    <img class="project-img" src="./assets/images/about-us/justin-young/my-event.png" alt="Event & Hotel">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Connect Profiles -->
+            <div class="row border-top no-gutters">
+                <p class="col-12 text-center text-company-primary">Connect:</p>
+                <p class="col-3 text-center text-company-primary">Email:
+                    <a href="mailto:jyoung7223@yahoo.com?subject=USS-Connect"><i class="fa fa-envelope-o">
+                            jyoung7223@yahoo.com</i></a>
+                </p>
+                <p class="col-3 text-center text-company-primary">Telephone:
+                    <a href="tel:801-541-9922"><i class="fa fa-phone"> 801-541-9922</i></a>
+                </p>
+                <p class="col-3 text-center text-company-primary">Text:
+                    <a href="sms:801-541-9922&body=USS-Connect"><i class="fa fa-comment"> 801-541-9922 </i></a>
+                </p>
+                <p class="col-3 text-center text-company-primary">
+                    <a href="./assets/documents/justin-young-resume.pdf" download><i class="fa fa-download" aria-hidden="true"> Download Resume Copy</i></a>
+                </p>
+            </div>
+            <section class="row">
+                <div class="col-4 col-sm-2 my-2">
+                    <a href="https://github.com/JYoung7223">
+                        <img class="connect-img" src="./assets/images/github.jpg" alt="GitHub">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <a href="https://github.com/JYoung7223"><i class="fa fa-github" aria-hidden="true">
+                                    GitHub</i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 my-2">
+                    <a href="https://www.linkedin.com/in/justin-young-b7469826/">
+                        <img class="connect-img" src="./assets/images/linkedin.png" alt="Linked-In">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <a href="https://www.linkedin.com/in/justin-young-b7469826/"><i class="fa fa-linkedin" aria-hidden="true"> Linked-In</i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 my-2">
+                    <a href="https://www.instagram.com/justin.o.young/">
+                        <img class="connect-img" src="./assets/images/instagram.jpg" alt="Instagram">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <a href="https://www.instagram.com/justin.o.young/"><i class="fa fa-instagram" aria-hidden="true"> Instagram</i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 my-2">
+                    <a href="https://www.youtube.com/channel/UCCmbphfbGJQeonVIDKQaL4A?view_as=subscriber">
+                        <img class="connect-img" src="./assets/images/youtube.PNG" alt="YouTube">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <a href="https://www.youtube.com/channel/UCCmbphfbGJQeonVIDKQaL4A?view_as=subscriber"><i class="fa fa-youtube" aria-hidden="true"> Youtube</i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 my-2">
+                    <a href="https://www.facebook.com/justin.young.56232">
+                        <img class="connect-img" src="./assets/images/facebook.png" alt="Facebook">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <a href="https://www.facebook.com/justin.young.56232"><i class="fa fa-facebook" aria-hidden="true"> Facebook</i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 my-2">
+                    <a href="https://www.twitter.com/justin7223">
+                        <img class="connect-img" src="./assets/images/twitter.png" alt="Twitter">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <a href="https://www.twitter.com/justin7223"><i class="fa fa-twitter" aria-hidden="true">
+                                    Twitter</i></a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
 
     <!-- Footer Section -->
     <footer class="container-fluid fixed-bottom mb-0 bg-light">
         <section class="row">
-            <div class="col text-center"><i class="fa fa-copyright" aria-hidden="true"> Copyright</i></div>
+            <div class="col text-center"><i class="fa fa-copyright" aria-hidden="true"> Copyright 2020</i></div>
         </section>
     </footer>
 </body>
